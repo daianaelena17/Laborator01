@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:alpha="1"
     android:orientation="vertical"
     tools:context="ro.pub.cs.systems.eim.lab01.myfirstandroidapplication.MainActivity">
 
@@ -27,7 +28,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textPersonName" >
+        android:inputType="textPersonName">
 
         <requestFocus />
     </EditText>
@@ -43,9 +44,9 @@
         android:id="@+id/greeting_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center"
         android:layout_gravity="center"
-        android:alpha="0"
+        android:alpha="1"
+        android:gravity="center"
         android:text="@string/gretting_text_view_content" />
 
 </LinearLayout>
